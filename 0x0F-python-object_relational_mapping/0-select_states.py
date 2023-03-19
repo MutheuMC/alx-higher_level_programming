@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 
 """MySQLdb client to select all states"""
 import MySQLdb
