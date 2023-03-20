@@ -4,7 +4,7 @@
 import MySQLdb
 import sys
 
-if __name__ = "main":
+if __name__ == "__main__":
     connect_options = {
             "user": sys.argv[1],
             "password": sys.argv[2],
@@ -16,7 +16,7 @@ if __name__ = "main":
             }
 conn = MySQLdb.connect(**connect_options)
 cur = conn.cursor()
-cur.execute("SELECT * FROM states ORDER BY id ASC"
+cur.execute("SELECT * FROM states ORDER BY id ASC")
 results = cur.fetchall()
 
 for row in results:
