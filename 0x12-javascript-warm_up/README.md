@@ -1,7 +1,5 @@
-# JavaScript Warm-up
+# Javascript - Warm up
 
-Learning about the basics in JS.
-
-## 0-javascript_is_amazing.js
-
-A script that prints "JavaScript is amazing" in the console.
+Javascript is a popular programming language used for many applications i.e.,
+1. Scripting
+2. Web front-end development

@@ -1,17 +1,14 @@
 #!/usr/bin/node
 
-// Script to print square of size argv[2].
-
-const myArg = process.argv[2];
-let rows = 'X';
-
-if (isNaN(Number(myArg))) {
+let size = parseInt(process.argv[2]);
+if (isNaN(size) || process.argv[2] === undefined) {
   console.log('Missing size');
-} else {
-  for (let i = 0; i < myArg - 1; i++) {
-    rows += 'X';
-  }
-  for (let j = 0; j < myArg; j++) {
-    console.log(rows);
-  }
+}
+let myString = 'X';
+for (let i = 0; i < size - 1; i++) {
+  myString += 'X';
+}
+while (size > 0) {
+  console.log(myString);
+  size--;
 }

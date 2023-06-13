@@ -1,10 +1,9 @@
 #!/usr/bin/node
 
-// script to print strings using a loop
+const myStrings = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let myIndex = 0;
 
-let i;
-const myString = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-
-for (i = 0; i < 3; i++) {
-  console.log(myString[i]);
+while (myIndex < 3) {
+  console.log(myStrings[myIndex]);
+  myIndex++;
 }
