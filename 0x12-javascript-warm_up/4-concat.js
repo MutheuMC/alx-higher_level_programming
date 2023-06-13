@@ -2,5 +2,4 @@
 
 // Script that prints "JavaScript is amazing".
 
-const myVar = 'JavaScript is amazing';
-console.log(myVar);
+console.log(process.argv[2] + ' is ' + process.argv[3]);

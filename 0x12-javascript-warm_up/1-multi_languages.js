@@ -1,6 +1,6 @@
 #!/usr/bin/node
-// use console.log to print out three lines of code
 
-console.log('C is fun');
-console.log('Python is cool');
-console.log('Javascript is amazing');
+// Script that prints "JavaScript is amazing".
+
+const myVar = 'C is fun\nPython is cool\nJavaScript is amazing';
+console.log(myVar);
